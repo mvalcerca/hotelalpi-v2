@@ -189,7 +189,7 @@
 
         <div class="row">
           <div class="col-md-12 text-center title-padding">
-            <h2>LIVE FROM ROMA <br><small></small></h2>
+            <h2>LIVE FROM ROMA <br><small>News eventi e promozioni da Roma</small></h2>
           </div>
         </div>
 
