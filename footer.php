@@ -56,7 +56,6 @@
  ga('require', 'linker');
  ga('linker:autoLink', ['secure.hermeshotels.com']);
  </script>
- <!-- End Google Analytics -->
 
 	<?php wp_footer(); ?>
   </body>
