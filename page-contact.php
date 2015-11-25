@@ -68,7 +68,7 @@
                 Via Castelfidardo, 84 - Rome Italy <br>
                 <abbr title="Phone">P:</abbr> (+39) 06 444 1235 <br>
                 <abbr title="Fax">F:</abbr> (+39) 06 444 1257 <br>
-                <abbr title="Mail">E:</abbr> <a href="mailto:info@hotelalpi.com">info@hotelalpi.com</a>
+                <abbr title="Mail">E:</abbr> <a href="mailto:info@hotelalpi.com" onClick="ga('send', 'pageview', '/email', 'click to email', 'info@hotelalpi.com');">info@hotelalpi.com</a>
               </address>
             </p>
 
