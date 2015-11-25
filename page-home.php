@@ -131,7 +131,7 @@
         </div>
       </div>
     </div>
-    <!-- sezione del blog -->
+
     <div class="newsblog">
       <div class="container-fluid mheight">
         <div class="row mheight">
@@ -189,7 +189,7 @@
 
         <div class="row">
           <div class="col-md-12 text-center title-padding">
-            <h2>LIVE FROM ROMA <br><small></small></h2>
+            <h2>LIVE FROM ROMA <br><small><?php _e('News, eventi e promozioni da Hotel Alpi Roma', 'hotelalpi'); ?></small></h2>
           </div>
         </div>
 
