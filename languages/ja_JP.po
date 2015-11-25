@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hotelalpi\n"
+"POT-Creation-Date: 2015-06-08 10:07+0100\n"
+"PO-Revision-Date: 2015-06-08 10:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: HermesHotels\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: ja\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: imgs\n"
+"X-Poedit-SearchPathExcluded-2: inc\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: languages\n"
+"X-Poedit-SearchPathExcluded-5: layouts\n"
+"X-Poedit-SearchPathExcluded-6: template-parts\n"
+
+#: ../footer.php:34
+msgid "Dati Societari"
+msgstr "会社情報"
+
+#: ../footer.php:35
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../languages/page-contact.php:36 ../page-contact.php:36
+msgid "I nostri contatti"
+msgstr "私たちの連絡先"
+
+#: ../languages/page-contact.php:39 ../page-contact.php:39
+msgid "Telefono"
+msgstr "電話"
+
+#: ../languages/page-contact.php:40 ../page-contact.php:40
+msgid "Fax"
+msgstr "ファックス"
+
+#: ../languages/page-contact.php:41 ../page-contact.php:41
+msgid "Mail"
+msgstr "Eメール"
+
+#: ../languages/page-contact.php:46 ../page-contact.php:46
+#: ../page-home.php:219
+msgid "Modulo di Contatto"
+msgstr "お問い合わせフォーム"
+
+#: ../languages/page-contact.php:48 ../page-contact.php:48
+#: ../page-home.php:223
+msgid "Compila il modulo per essere contattato da uno dei nostri operatori"
+msgstr "私たちの事業者のいずれかで接触するフォームを完成"
+
+#: ../page-home.php:55
+msgid "Benvenuto nel nostro boutique hotel a Roma"
+msgstr "ようこそローマのブティックホテルへ！"
+
+#: ../page-home.php:157 ../page-home.php:202 ../page-home.php:227
+msgid "Indirizzo email"
+msgstr "Eメールアドレス"
+
+#: ../page-home.php:160
+msgid "Iscriviti"
+msgstr "登録してください！"
+
+#: ../page-home.php:194
+msgid "Codice promozionale"
+msgstr "プロモーションコード"
+
+#: ../page-home.php:198
+msgid "Lascia la tua mail e ottieni subito un codice promozionale del 5% !"
+msgstr "Eメールを入力して、5％オフのクーポンコードを今すぐゲット！"
+
+#: ../page-home.php:206
+msgid "Iscriviti!"
+msgstr "登録してください！"
+
+#: ../page-home.php:232
+msgid "Nome"
+msgstr "名"
+
+#: ../page-home.php:237
+msgid "Oggetto"
+msgstr "オブジェクト"
+
+#: ../page-home.php:242
+msgid "Messaggio"
+msgstr "メッセージ"
+
+#: ../page-home.php:246
+msgid "Contattaci"
+msgstr "コンタクト"
+
+#: ../page-rooms.php:54
+msgid "Mostra tutti"
+msgstr "展示会"
+
+#: ../page-service.php:270
+msgid "Abbiamo preso in prestito ciò che alcuni clienti hanno scritto di noi"
+msgstr "Here is what some customers have written about us. "
+
+#: ../page-service.php:270
+msgid ""
+"confermerai o smentirai ? Ti aspettiamo all'Hotel Alpi per darti la "
+"possibilità di rispondere."
+msgstr ""
+"Do you agree with them? Please come to Hotel Alpi to give you a chance to "
+"judge for yourself!"

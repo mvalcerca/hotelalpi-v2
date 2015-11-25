@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hotelalpi\n"
+"POT-Creation-Date: 2015-06-20 11:50+0100\n"
+"PO-Revision-Date: 2015-06-20 11:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: HermesHotels\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: imgs\n"
+"X-Poedit-SearchPathExcluded-2: inc\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: languages\n"
+"X-Poedit-SearchPathExcluded-5: layouts\n"
+"X-Poedit-SearchPathExcluded-6: template-parts\n"
+
+#: ../footer.php:34
+msgid "Dati Societari"
+msgstr "Unternehmensinformation"
+
+#: ../footer.php:35
+msgid "Privacy"
+msgstr "Privacy"
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../languages/page-contact.php:36 ../page-contact.php:36
+msgid "I nostri contatti"
+msgstr "Unsere Kontakte"
+
+#: ../languages/page-contact.php:39 ../page-contact.php:39
+msgid "Telefono"
+msgstr "Telefon"
+
+#: ../languages/page-contact.php:40 ../page-contact.php:40
+msgid "Fax"
+msgstr "Fax"
+
+#: ../languages/page-contact.php:41 ../page-contact.php:41
+msgid "Mail"
+msgstr "Mail"
+
+#: ../languages/page-contact.php:46 ../page-contact.php:46
+#: ../page-home.php:241
+msgid "Modulo di Contatto"
+msgstr "Kontakt Formular"
+
+#: ../languages/page-contact.php:48 ../page-contact.php:48
+#: ../page-home.php:246
+msgid "Compila il modulo per essere contattato da uno dei nostri operatori"
+msgstr ""
+"Füllen Sie das Formular aus, um von einem unserer Mitarbeiter kontaktiert "
+"werden"
+
+#: ../page-contact.php:51 ../page-home.php:219 ../page-home.php:249
+msgid "Indirizzo email"
+msgstr "E-Mail-Adresse"
+
+#: ../page-contact.php:52 ../page-home.php:250
+msgid "Nome"
+msgstr "Name"
+
+#: ../page-contact.php:53 ../page-home.php:251
+msgid "Oggetto"
+msgstr "Objekt"
+
+#: ../page-contact.php:54 ../page-home.php:252
+msgid "Messaggio"
+msgstr "Nachricht"
+
+#: ../page-contact.php:75 ../page-home.php:273
+msgid "Contattaci"
+msgstr "Kontakt"
+
+#: ../page-home.php:67
+msgid "Benvenuto nel nostro boutique hotel a Roma"
+msgstr "Willkommen in unserem Boutique-Hotel in Rom!"
+
+#: ../page-home.php:174
+msgid "Iscriviti!"
+msgstr "Registrieren Sie sich!"
+
+#: ../page-home.php:177
+msgid "Grazie per esserti iscritto!"
+msgstr "Vielen Dank für Ihre Anmeldung!"
+
+#: ../page-home.php:211
+msgid "Codice promozionale"
+msgstr "Gutscheincode"
+
+#: ../page-home.php:215
+msgid "Lascia la tua mail e ottieni subito un codice promozionale del 5% !"
+msgstr ""
+"Geben Sie Ihre E-Mail an und Sie erhalten sofort einen Gutschein-Code im "
+"Wert von 5%!"
+
+#: ../page-home.php:223
+msgid "Richiedi promo code!"
+msgstr "Bewerben Sie sich jetzt für den Gutscheincode zu sehen"
+
+#: ../page-home.php:227
+msgid "Grazie! Il promocode per lo sconto è : ALPIROMA"
+msgstr "Danke. Der Promocode für den Rabatt: ALPIROMA"
+
+#: ../page-rooms.php:54
+msgid "Mostra tutti"
+msgstr "Zeige alles"
+
+#: ../page-service.php:75
+msgid "Abbiamo preso in prestito ciò che alcuni clienti hanno scritto di noi"
+msgstr ""
+"Wir haben uns das ausgeliehen, was einige Kunden über uns geschrieben haben."
+
+#: ../page-service.php:75
+msgid ""
+"confermerai o smentirai ? Ti aspettiamo all'Hotel Alpi per darti la "
+"possibilità di rispondere."
+msgstr ""
+"Werden Sie es bestätigen oder widersprechen? Wir erwarten Sie im Hotel Alpi, "
+"um Ihnen Gelegenheit zur Antwort zu geben!"
+
+#~ msgid "Iscriviti"
+#~ msgstr "Registrieren Sie sich"

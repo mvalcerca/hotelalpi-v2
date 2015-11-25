@@ -1,0 +1,531 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,100);
+
+.bmw *{
+  box-sizing: border-box; 
+}
+
+#modalbmw{
+  display: none;
+}
+
+.mobile-book-button{
+  cursor: pointer;
+}
+
+#cin-calendar, #cout-calendar{
+  display: none;
+}
+
+.bmw{
+  background-color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.bmw{
+  width: 100%;
+  height: 100%;
+}
+
+.bmw .overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+.bmw .container{
+  position: fixed;
+  top: 90px;
+  margin: 0 auto;
+  left: 50%;
+  margin: 0 0 0 -300px;
+  margin-top: 70px;
+  width: 600px;
+  min-height: 1px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 9999;
+}
+
+.bmw .container.normal{
+  position: static;
+  left: auto;
+  top: auto;
+  margin: 0px;
+  min-width: 100px;
+  width: 100%;
+  border: 1px solid #dedede;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 0px;
+  border-bottom: 0px;
+}
+
+.bmw .container .header{
+  min-height: 100px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.bmw .container .header .item{
+  width: 33.33%;
+  min-height: 132px;
+  height: 100%;
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px solid #dedede;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  z-index: 70;
+}
+
+.bmw .container .header .item:hover{
+  background-color: #f0f0f0;
+}
+
+.bmw .container .header .item:nth-last-child(2){
+   border: 0px;
+}
+
+.clear{
+  clear: both;
+}
+
+.bmw .container .header .item .title{
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #9B9B9B;
+}
+
+.bmw .container .header .item .day{
+  font-size: 3.5em;
+  font-weight: 300;
+  color: #3E3E3E;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+.bmw .container .header .item .room{
+  font-size: 3.5em;
+  font-weight: 300;
+  color: #3E3E3E;
+  transition: all 0.5s ease;
+  text-align: center;
+  width: 60%;
+  float: left;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.bmw .container .header .item .day i{
+  font-size: 0.8em;
+  font-weight: 100;
+  color: #9B9B9B;
+  margin-left: -5px;
+  transition: all 0.5s ease;
+}
+
+.bmw .container .header .item .day:hover i{
+  color: #2980b9;
+}
+
+.bmw .container .header .item .month{
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #9B9B9B;
+  transition: all 0.5s ease;
+}
+
+.bmw .container .header .item .control{
+
+}
+
+.bmw .container .header .item .control.plus{
+  float: left;
+  width: 20%;
+  font-size: 3.3em;
+  color: #b9b9b9;
+}
+
+.bmw .container .header .item .control.minus{
+  float: left;
+  width: 20%;
+  font-size: 3.3em;
+  color: #b9b9b9;
+}
+
+.bmw .container .header .item .controls a.plus{
+  position: absolute;
+  top: 30px;
+  left: 420px;
+  font-size: 4em;
+  font-weight: 100;
+  color: #9B9B9B;
+  text-decoration: none;
+}
+
+.bmw .container .header .item .controls a.minus{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 4em;
+  font-weight: 100;
+  color: #9B9B9B;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.bmw .container .header .item .controls a:hover{
+  color: #3498db;
+}
+
+.bmw .body{
+  background-color: #f0f0f0;
+  border-top: 1px solid #dedede;
+  min-height: 30px;
+  overflow: hidden;
+}
+
+.bmw .room-row{
+  border-bottom: 1px solid #dedede;
+  transition: all 0.5s ease;
+  height: 65px;
+}
+
+.bmw .room-row:hover{
+  background-color: #fcfcfc;
+}
+
+.bmw .room-row:last-child{
+  border-bottom: 0;
+}
+
+.bmw .room-row .bordered{
+  border-right: 1px solid #dedede;
+}
+
+.bmw .room-row select, .bmw .childs-spec-row select{
+  -moz-appearance:none;
+  -webkit-appearance: none;
+  font-size: 0.9em;
+  padding-left: 15px;
+  height: 65px;
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: transparent url("https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-32.png") no-repeat 90% center;
+}
+
+.bmw .room-row .name{
+  width: 33.33%;
+  float: left;
+  height: 65px;
+  line-height: 33px;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.bmw .room-row .remove{
+  width: 8%;
+  float: left;
+  height: 65px;
+  line-height: 65px;
+  box-sizing: border-box;
+  border-left: 1px solid #dedede;
+  text-align: center;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.bmw .room-row .remove:hover{
+  background-color: #c0392b;
+  color: #FFF;
+  border-left: 0px;
+}
+
+.bmw .room-row .adults{
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+.bmw .room-row .childs{
+  width: 25.33%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.bmw .search{
+  border-top: 1px solid #e34335;
+  background-color: #e34335;
+  text-align: center;
+  padding: 0.5em;
+  color: #FFF;
+  font-size: 1.5em;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border-bottom: 4px solid #b32519;
+}
+
+.bmw .search:active{
+  background-color: #b32519;
+}
+
+.bmw .search:hover{
+  background-color: #b32519;
+}
+
+.bmw .promocode{
+  background-color: #FFF;
+  z-index: 1;
+}
+
+.bmw .promocode input{
+  -moz-appearance:none;
+  -webkit-appearance: none;
+  display: block;
+  height: 100%;
+  border: 0;
+  width: 100%;
+  font-size: 1em;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  outline: none;
+  border-top: 1px solid #dedede;
+}
+
+.bmw .promocode label{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.bmw .childs-spec-row .item.label {
+    width: 20%;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.bmw .promocode input:focus{
+  box-shadow: 0;
+}
+
+.picker--opened .picker__holder{
+  min-width: 20em;
+  top: 12px;
+  left: -16px;
+  border: 1px solid #dedede;
+  border-radius: 0 0 3px 3px;
+}
+
+.bmw .childs-spec-row{
+  height: 65px;
+  line-height: 60px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #dedede;
+  display: none;
+}
+
+.bmw .childs-spec-row:last-child{
+  border-bottom: 0px;
+}
+
+.bmw .childs-spec-row .label{
+  padding-left: 1em;
+  box-sizing: border-box;
+}
+
+.bmw .childs-spec-row .item{
+  border-right: 1px solid #dedede;
+  float: left;
+}
+
+.bmw .childs-spec-row .item.label{
+  width: 20%;
+}
+
+.bmw .childs-spec-row .item.age{
+  box-sizing: border-box;
+  width: 20%;
+}
+
+.bmw .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+  display: block;
+  background-color: #FFF;
+  z-index: 99999;
+  position: absolute;
+  padding: 1.5em;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+}
+
+.bmw table.ui-datepicker-calendar{
+  height: 80%;
+  width: 100%;
+}
+
+.bmw .ui-datepicker-title{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bmw .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all{
+  margin-bottom: 20px;
+}
+
+.bmw .ui-datepicker-prev{
+  float: left;
+}
+
+.bmw .ui-datepicker-next{
+  float: right;
+}
+
+.bmw .calendar{
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+  position: absolute;
+  z-index: 99999;
+}
+
+.bmw table.ui-datepicker-calendar thead{
+  font-size: 0.8em;
+  color: #6C6C6C;
+  margin-top: 1em;
+}
+
+.bmw table.ui-datepicker-calendar a{
+  color: #9B9B9B;
+  font-size: 0.9em;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: block;
+  padding: 0.4em;
+  width: 2em;
+  height: 2em;
+}
+
+.bmw table.ui-datepicker-calendar a:hover{
+  color: #3498db;
+}
+
+.bmw .ui-state-disabled .ui-state-default{
+  text-decoration: line-through;
+  color: #C2C2C2;
+}
+
+.bmw .ui-state-default{
+  transition: all 0.5s ease;
+}
+
+.bmw a.ui-state-default:hover{
+  color: #3498db;
+}
+
+.bmw .ui-state-default.ui-state-active{
+  color: #FFF;
+  border-radius: 50%;
+  background-color: #3498db;
+  transition: all 0.5s ease;
+  padding: 0.4em;
+}
+
+.bmw .ui-datepicker-year{
+  font-size: 0.7em;
+}
+
+@media (max-width: 600px){
+  .bmw .container{
+    min-width: 200px;
+    width: 400px;
+    margin: 0 0 0 -200px;
+  }
+  .bmw .container .header .item{
+    width: 50%;
+  }
+
+  .bmw .container .header .item:last-child{
+    width: 100%;
+  }
+
+  .bmw .container .header .item.rooms{
+    min-height: 80px;
+    width: 100%;
+  }
+
+  .bmw .container .header .item .control.plus {
+    font-size: 2.5em;
+  }
+
+  .bmw .container .header .item .control.minus {
+    font-size: 2.5em;
+  }
+
+  .bmw .container .header .item .control.minus:hover {
+    color: #2980b9;
+}
+
+  .bmw .container .header .item .room{
+    font-size: 2.5em;
+  }
+
+  .bmw .container .header .item.rooms{
+    border-top: 1px solid #dedede;
+  }
+
+  .bmw .container .header .item .day{
+    font-size: 2.5em;
+  }
+
+  .bmw .container .header .item{
+    min-height: 100px;
+  }
+
+  .bmw .room-row .name{
+    font-size: 0.780em;
+    padding: 0.4;
+  }
+
+  .bmw .room-row select, .bmw .childs-spec-row select{
+    background: none;
+  }
+
+}
